@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "996074232083",
+    "firebase_url": "https://peronal-c6bb5.firebaseio.com",
+    "project_id": "peronal-c6bb5",
+    "storage_bucket": "peronal-c6bb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996074232083:android:910e6320dc88dbd664e2e6",
+        "android_client_info": {
+          "package_name": "edu.skku.map.personal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996074232083-bohnctrr94c2kj37u5afvpqh2gtnh6h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhRHHQVGlAdRLxv3k9ZNByeeka2PaAUkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996074232083-bohnctrr94c2kj37u5afvpqh2gtnh6h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
