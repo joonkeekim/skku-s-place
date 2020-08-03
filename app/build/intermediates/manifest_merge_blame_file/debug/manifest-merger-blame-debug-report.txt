@@ -1,0 +1,290 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.skku.map.personal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:7:22-78
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:10:5-76
+18-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:10:22-73
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/4e254cb7f308a30966022d28cc45f3ae/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+24-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:9:5-40:19
+29        android:allowBackup="true"
+29-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:10:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/f961a727fd6ff1bec6d760c391cc6822/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="@string/app_name"
+33-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:12:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:13:9-54
+35        android:supportsRtl="true"
+35-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:14:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:15:9-40
+38        <activity android:name="edu.skku.map.personal.Main4Activity" />
+38-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:16:9-60
+38-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:16:19-48
+39
+40        <uses-library
+40-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:18:9-20:40
+41            android:name="org.apache.http.legacy"
+41-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:19:13-50
+42            android:required="false" />
+42-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:20:13-37
+43
+44        <meta-data
+44-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:22:9-24:71
+45            android:name="com.google.android.geo.API_KEY"
+45-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:23:13-58
+46            android:value="AIzaSyCMgePs1y2PT41_RgEykuSlSqCl-ECN3Nw" />
+46-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:24:13-68
+47        <meta-data
+47-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:25:9-27:69
+48            android:name="com.google.android.gms.version"
+48-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:26:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:27:13-66
+50
+51        <activity android:name="edu.skku.map.personal.Friend" />
+51-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:29:9-44
+51-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:29:19-41
+52        <activity android:name="edu.skku.map.personal.Search" />
+52-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:30:9-44
+52-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:30:19-41
+53        <activity android:name="edu.skku.map.personal.SignUp" />
+53-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:31:9-44
+53-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:31:19-41
+54        <activity android:name="edu.skku.map.personal.MainActivity" />
+54-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:32:9-50
+54-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:32:19-47
+55        <activity android:name="edu.skku.map.personal.Login" >
+55-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:33:9-39:20
+55-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:33:19-40
+56            <intent-filter>
+56-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:34:13-38:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:35:17-69
+57-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:35:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:37:17-77
+59-->/Users/joonkee/Desktop/personal/app/src/main/AndroidManifest.xml:37:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <service
+63-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:29:9-35:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:30:13-84
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:31:13-37
+67            <meta-data
+67-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:32:13-34:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+68-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:33:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b307d84a91db0a98ef211055f1496305/jetified-firebase-database-19.3.0/AndroidManifest.xml:34:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-storage:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1c886e79156e0a4f8b0934be6f6595a4/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+71                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+71-->[com.google.firebase:firebase-storage:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1c886e79156e0a4f8b0934be6f6595a4/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-storage:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1c886e79156e0a4f8b0934be6f6595a4/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/883fe3ee61da0b22067da7d7ee17f093/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+77-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+79        </service>
+80
+81        <activity
+81-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:14:9-20:20
+82            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+82-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:15:13-91
+83            android:exported="false"
+83-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:16:13-37
+84            android:label="@string/places_autocomplete_label"
+84-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:17:13-62
+85            android:theme="@style/PlacesAutocompleteOverlay"
+85-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:18:13-61
+86            android:windowSoftInputMode="adjustResize" >
+86-->[com.google.android.libraries.places:places:2.2.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/3a8fc46bc67a69bbcd67756262e8d44c/jetified-places-2.2.0/AndroidManifest.xml:19:13-55
+87        </activity>
+88
+89        <receiver
+89-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+90            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+90-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+91            android:exported="true"
+91-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+92            android:permission="com.google.android.c2dm.permission.SEND" >
+92-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+93            <intent-filter>
+93-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+94                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+94-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+94-->[com.google.firebase:firebase-iid:20.0.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/0dbca7ef2e7fe6dd6ad20b90edf9f9bc/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+95            </intent-filter>
+96        </receiver>
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.0.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/38b6c4b545e39be84f8fef63d737cf6b/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+102
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+104-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+106            android:exported="false" >
+106-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+107        </receiver>
+108        <receiver
+108-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+109            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+109-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+111            android:exported="true"
+111-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+112            android:permission="android.permission.INSTALL_PACKAGES" >
+112-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+113            <intent-filter>
+113-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+114                <action android:name="com.android.vending.INSTALL_REFERRER" />
+114-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+114-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+115            </intent-filter>
+116        </receiver>
+117
+118        <service
+118-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+119            android:name="com.google.android.gms.measurement.AppMeasurementService"
+119-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+121            android:exported="false" />
+121-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+122        <service
+122-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+123            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+123-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+124            android:enabled="true"
+124-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+126            android:permission="android.permission.BIND_JOB_SERVICE" />
+126-->[com.google.android.gms:play-services-measurement:17.2.2] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/10ddb5a7f44298deca40fafe6f4c087b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+127
+128        <provider
+128-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+129            android:name="com.google.firebase.provider.FirebaseInitProvider"
+129-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+130            android:authorities="edu.skku.map.personal.firebaseinitprovider"
+130-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+131            android:exported="false"
+131-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+132            android:initOrder="100" />
+132-->[com.google.firebase:firebase-common:19.3.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/1b23a58bb1c539c2a19df1b0920c32b5/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+133
+134        <service
+134-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:29:9-35:19
+135            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+135-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:30:13-103
+136            android:exported="false" >
+136-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:31:13-37
+137            <meta-data
+137-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:32:13-34:39
+138                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+138-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:33:17-94
+139                android:value="cct" />
+139-->[com.google.android.datatransport:transport-backend-cct:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/b2823db9b96eca49160e19cd3fd4ddae/jetified-transport-backend-cct-2.1.0/AndroidManifest.xml:34:17-36
+140        </service>
+141        <service
+141-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:26:9-30:19
+142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+142-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:27:13-117
+143            android:exported="false"
+143-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:28:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" >
+144-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:29:13-69
+145        </service>
+146
+147        <receiver
+147-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:32:9-34:40
+148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+148-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:33:13-132
+149            android:exported="false" />
+149-->[com.google.android.datatransport:transport-runtime:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/d184cbcdecb680a29ed9375bd5620657/jetified-transport-runtime-2.1.0/AndroidManifest.xml:34:13-37
+150
+151        <provider
+151-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/18b46dc3728a92235b0da89a21e92ceb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+152            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+152-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/18b46dc3728a92235b0da89a21e92ceb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+153            android:authorities="edu.skku.map.personal.lifecycle-process"
+153-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/18b46dc3728a92235b0da89a21e92ceb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+154            android:exported="false"
+154-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/18b46dc3728a92235b0da89a21e92ceb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+155            android:multiprocess="true" />
+155-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/joonkee/.gradle/caches/transforms-2/files-2.1/18b46dc3728a92235b0da89a21e92ceb/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+156    </application>
+157
+158</manifest>

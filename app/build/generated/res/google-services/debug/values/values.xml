@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">996074232083-bohnctrr94c2kj37u5afvpqh2gtnh6h3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://peronal-c6bb5.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">996074232083</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhRHHQVGlAdRLxv3k9ZNByeeka2PaAUkU</string>
+    <string name="google_app_id" translatable="false">1:996074232083:android:910e6320dc88dbd664e2e6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhRHHQVGlAdRLxv3k9ZNByeeka2PaAUkU</string>
+    <string name="google_storage_bucket" translatable="false">peronal-c6bb5.appspot.com</string>
+    <string name="project_id" translatable="false">peronal-c6bb5</string>
+</resources>
